@@ -10,7 +10,7 @@
 </head>
 <body>
 <header>
-    <div class="div_header">
+    <div class="div_header d_flex">
         <a href="#">
             <img src="img/logo.svg" alt="logo">
         </a>
@@ -57,100 +57,42 @@
         <div class="div_process">
             <h3>Our process</h3>
             <h2 >How we do what we do.</h2>
-            <div style="display: flex; justify-content: space-between; padding: 0 42px;">
-                <article style="max-width: 259px; text-align: center;">
+            <div class="div_article d_flex">
+                <article>
                     <a href="#">
                         <img src="./img/sketching.svg" alt="Sketching">
                     </a>
-                    <h3 style="margin-top: 15px; margin-bottom: 10px; font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 26px;
-text-align: center;
-color: #403E3B;">Sketching</h3>
-                    <p style="font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-text-align: center;
-color: #645C55;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae tempor leo iaculis.</p>
+                    <h3>Sketching</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae tempor leo iaculis.</p>
                 </article>
-                <article style="max-width: 259px; text-align: center; margin: 0 20px;">
+                <article>
                     <a href="#">
                         <img src="./img/finalizing.svg" alt="finalizing">
                     </a>
-                    <h3 style="margin-top: 15px; margin-bottom: 10px; font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 26px;
-text-align: center;
-color: #403E3B;">Finalizing</h3>
-                    <p style="font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-text-align: center;
-color: #645C55;">Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu tempor, vitae.</p>
+                    <h3>Finalizing</h3>
+                    <p>Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu tempor, vitae.</p>
                 </article>
-                <article style="max-width: 259px; text-align: center;">
+                <article>
                     <a href="#">
                         <img src="./img/building.svg" alt="Building">
                     </a>
-                    <h3 style="margin-top: 15px; margin-bottom: 10px; font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 26px;
-text-align: center;
-color: #403E3B;">Building</h3>
-                    <p style="font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-text-align: center;
-color: #645C55;">Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor leo iaculis.</p>
+                    <h3>Building</h3>
+                    <p>Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor leo iaculis.</p>
                 </article>
             </div>
         </div>
 
     </section>
 
-    <section style="background: #CEC4BC; border-radius: 0px;">
-        <div style="max-width: 1168px; margin: auto; display: flex; justify-content: space-between;">
-            <div style="max-width: 569px; margin-top: 100px; margin-bottom: 100px;">
-                <h3 style="font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 2px;
-text-decoration: none;
-text-transform: uppercase;
-
-color: #645C55;">Get in touch</h3>
-                <p style="font-family: 'Poppins'; margin-bottom: 13px;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 42px;
-text-decoration: none;
-color: #1B1A1A;">Think we would be a good fit for your next project?</p>
+    <section class="section_get">
+        <div class="container_get d_flex">
+            <div class="div_get">
+                <h3>Get in touch</h3>
+                <p>Think we would be a good fit for your next project?</p>
             </div>
-            <div style="display: flex; margin: auto">
-                <a href="#" style="text-decoration: none">
-                    <p style="font-family: 'Poppins'; margin-left: 474px;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-text-decoration: none;
-letter-spacing: 0.4px;
-color: #1B1A1A;">Get in touch</p>
+            <div class="a_get">
+                <a href="#">
+                    <p style="">Get in touch</p>
                 </a>
             </div>
         </div>
@@ -158,39 +100,27 @@ color: #1B1A1A;">Get in touch</p>
 
 </main>
 <footer>
-    <div style="max-width: 1168px; margin: auto; margin-top: 60px; margin-bottom: 60px;">
+    <div class="footer_container">
         <a href="#">
             <img src="img/logo.svg" alt="logo">
         </a>
-        <p style="font-family: 'Poppins'; margin-top: 20px;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-decoration: none;
-color: #645C55;">Powered by Webflow.</p>
-        <div style="display: flex; justify-content: space-between">
-            <p style="font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-decoration: none;
-color: #645C55;">All rights reserved Wishbone+Partners, Inc.Licensing.</p>
+        <p>Powered by Webflow.</p>
+        <div class="d_flex">
+            <p>">All rights reserved Wishbone+Partners, Inc.Licensing.</p>
             <nav>
-                <ul style="list-style: none; display: flex">
+                <ul style="">
                     <li>
                         <a href="#">
                             <img src="./img/twitter.svg" alt="Twitter">
                         </a>
                     </li>
                     <li>
-                        <a href="#" style="margin-left: 20px;">
-                            <img src="./img/instagram.svg" alt="Imstagram">
+                        <a href="#">
+                            <img src="./img/instagram.svg" alt="Instagram">
                         </a>
                     </li>
                     <li>
-                        <a href="#" style="margin-left: 26px; margin-right: 6px;">
+                        <a href="#">
                             <img src="./img/facebook.svg" alt="Facebook">
                         </a>
                     </li>
