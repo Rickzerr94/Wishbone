@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 22px 0;
+}
+
+.div_header {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 22px;
+    box-sizing: border-box;
+}
+
+.div_header a {
+    margin-left: 32px;
+}
