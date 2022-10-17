@@ -349,9 +349,6 @@ h1 {
 
 .text_team a {
     text-decoration: none;
-}
-
-.text_team a p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -383,6 +380,7 @@ h1 {
 }
 
 .team1 article p span{
+    display: block;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -408,6 +406,7 @@ h1 {
 }
 
 .team2 article p span{
+    display: block;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
