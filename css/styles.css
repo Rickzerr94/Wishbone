@@ -53,6 +53,27 @@ header {
 
 }
 
+.section_house {
+    min-height: 600px;
+    background-image: url("../img/House (2).jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+}
+
+.description {
+    max-width: 285px;
+}
+
+.section_house .description h5 {
+
+}
+
+.section_house .description p {
+
+}
 /*-------------------the_home------------------------*/
 
 .section_home {
