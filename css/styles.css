@@ -53,6 +53,8 @@ header {
 
 }
 
+/*------------------------house----------------------*/
+
 .section_house {
     min-height: 600px;
     background-image: url("../img/House (2).jpg");
@@ -68,12 +70,84 @@ header {
 }
 
 .section_house .description h5 {
-
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #403E3B;
 }
 
 .section_house .description p {
-
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
 }
+
+/*-------------------our-firm----------------------*/
+
+.section_firm {
+    padding: 100px 0 120px;
+}
+
+.container_firm {
+    max-width: 768px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.container_firm h2 {
+    min-width: 134px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+}
+
+.container_firm .div_senior p {
+    max-width: 493px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    margin-bottom: 10px;
+}
+
+.container_firm .div_senior article {
+    justify-content: start;
+    margin-top: 18px;
+}
+
+.container_firm .div_senior article p {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+}
+
+.container_firm .div_senior article p span {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+}
+
 /*-------------------the_home------------------------*/
 
 .section_home {
@@ -210,6 +284,41 @@ h1 {
     color: #645C55;
 }
 
+/*------------------staircase----------------------*/
+
+.section_staircase {
+    min-height: 600px;
+    background-image: url("../img/Staircase.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+}
+
+.staircase {
+    max-width: 285px;
+}
+
+.section_staircase .staircase h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+
+.section_staircase .staircase p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+
 /*--------------------get--------------------*/
 
 .section_get {
@@ -331,6 +440,42 @@ h1 {
     margin-bottom: 96px;
 }
 
+/*------------------staircase----------------------*/
+
+.section_staircase2 {
+    min-height: 600px;
+    background-image: url("../img/Staircase2.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 75px;
+}
+
+.staircase2 {
+    max-width: 266px;
+}
+
+.section_staircase2 .staircase2 h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+
+.section_staircase2 .staircase2 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+
+
 /*----------------------team-----------------------*/
 
 .section_team {
@@ -443,6 +588,7 @@ h1 {
     margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
+    align-items: flex-end;
 }
 
 .footer_container p {
@@ -477,5 +623,9 @@ h1 {
 .footer_container ul li:last-of-type a {
     margin-left: 26px;
     margin-right: 6px;
+}
+
+.footer_container span {
+    display: block;
 }
 
