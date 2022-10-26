@@ -1,6 +1,78 @@
 @media only screen and (max-width: 768px) {
-    header{
-
+    .div_header a {
+        margin-left: 12px;
+    }
+    .div_header nav ul li:last-of-type a {
+        margin-right: 2px;
+    }
+    .section_home {
+        padding: 56px 0 0;
+        position: static;
+    }
+    .div_home {
+        padding-left: 24px;
+        padding-bottom: 20px;
+    }
+    .div_image {
+        position: static;
+        min-height: 720px;
+        width: 100%;
+    }
+    .container_firm {
+        justify-content: space-around;
+    }
+    .section_house {
+        padding-right: 10px;
+    }
+    .div_article {
+        justify-content: space-around;
+    }
+    .section_staircase {
+        padding-right: 10px;
+    }
+    .container_clients {
+        justify-content: space-around;
+    }
+    .clients_content {
+        margin-right: -20px;
+        max-width: 370px;
+    }
+    .section_staircase2 {
+        padding-left: 30px;
+    }
+    .projects h3 {
+        text-align: center;
+    }
+    .projects h4 {
+        text-align: center;
+    }
+    .div_projects article {
+        max-width: 252px;
+    }
+    .projects .describe a {
+        margin: auto;
+    }
+    .team_list {
+        height: auto;
+    }
+    .team_list article {
+        margin: 0 0 46px;
+    }
+    .container_team {
+        justify-content: space-around;
+    }
+    .text_team {
+        max-width: 275px;
+        margin-right: 26px;
+    }
+    .container_get {
+        padding: 0 30px;
+    }
+    .div_get {
+        max-width: 370px;
+    }
+    footer {
+        padding: 60px 30px;
     }
 }
 @media only screen and (max-width: 428px) {
