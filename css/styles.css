@@ -6,6 +6,7 @@
 .d_flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header {
@@ -174,7 +175,8 @@ header {
 }
 
 h1 {
-    margin-bottom: 18px; font-family: 'Poppins';
+    margin-bottom: 18px;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
@@ -475,6 +477,115 @@ h1 {
     color: #645C55;
 }
 
+/*---------------------projects--------------------*/
+
+.projects {
+    padding: 113px 0 111px;
+    background: #F7F7F7;
+}
+
+.div_projects {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.projects .div_projects a {
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    text-decoration: none;
+}
+
+.projects h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+    margin-bottom: 15px;
+}
+
+.projects p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #645C55;
+    margin-bottom: 44px;
+}
+
+.div_projects article {
+    max-width: 375px;
+    position: relative;
+    overflow: hidden;
+}
+
+.div_projects article:hover .describe{
+    bottom: 0;
+}
+
+.div_projects article img {
+    width: 100%;
+}
+
+.projects .describe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    bottom: -100%;
+    transition: 0.5s;
+
+}
+
+.projects .describe h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #403E3B;
+    width: 100%;
+}
+
+.projects .describe h4 span {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+
+.projects .describe a {
+    background: #1B1A1A;
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 11px 20px;
+}
 
 /*----------------------team-----------------------*/
 
@@ -531,6 +642,7 @@ h1 {
 .team1 article {
     justify-content: left;
     margin: 8px 0 46px 0;
+    position: relative;
 
 }
 
