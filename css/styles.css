@@ -413,6 +413,8 @@ h1 {
 .container_clients {
     max-width: 1168px;
     margin: auto;
+    display: flex;
+    justify-content: start;
 }
 
 .clients_content {
@@ -453,6 +455,15 @@ h1 {
 
 .block img{
     display: block;
+}
+
+.div_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.clients_logo1 {
+    margin-right: 96px;
 }
 
 .clients_logo1 a:first-of-type img {
