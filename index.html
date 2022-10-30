@@ -9,8 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
+
 </head>
 <body>
 <header>
@@ -84,7 +87,29 @@
         <div class="div_process">
             <h3>Our process</h3>
             <h2 >How we do what we do.</h2>
-            <div class="div_article d_flex">
+
+            <div class="div_article d_flex owl-carousel">
+                <article>
+                    <a href="#">
+                        <img src="./img/sketching.svg" alt="Sketching">
+                    </a>
+                    <h3>Sketching</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae tempor leo iaculis.</p>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="./img/finalizing.svg" alt="finalizing">
+                    </a>
+                    <h3>Finalizing</h3>
+                    <p>Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu tempor, vitae.</p>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="./img/building.svg" alt="Building">
+                    </a>
+                    <h3>Building</h3>
+                    <p>Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor leo iaculis.</p>
+                </article>
                 <article>
                     <a href="#">
                         <img src="./img/sketching.svg" alt="Sketching">
@@ -124,21 +149,23 @@
                 <h2>Happy customers.</h2>
                 <p>Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
             </div>
-            <div class="clients_logo1 block">
-                <a href="#">
-                    <img src="img/hill_logo.svg" alt="hill_logo">
-                </a>
-                <a href="#">
-                    <img src="img/studio_logo.svg" alt="studio_logo">
-                </a>
-            </div>
-            <div class="clients_logo2 block">
-                <a href="#">
-                    <img src="img/riks_logo.svg" alt="riks_logo">
-                </a>
-                <a href="#">
-                    <img src="img/chill_logo.svg" alt="chill_logo">
-                </a>
+            <div class="div_content">
+                <div class="clients_logo1 block">
+                    <a href="#">
+                        <img src="img/hill_logo.svg" alt="hill_logo">
+                    </a>
+                    <a href="#">
+                        <img src="img/studio_logo.svg" alt="studio_logo">
+                    </a>
+                </div>
+                <div class="clients_logo2 block">
+                    <a href="#">
+                        <img src="img/riks_logo.svg" alt="riks_logo">
+                    </a>
+                    <a href="#">
+                        <img src="img/chill_logo.svg" alt="chill_logo">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -219,9 +246,6 @@
                     <p><span>Aria Stone</span>Senior Partner</p>
                 </article>
             </div>
-            <div class="team2">
-
-            </div>
         </div>
     </section>
 
@@ -233,7 +257,7 @@
             </div>
             <div>
                 <a href="#">
-                    <p style="">Get in touch</p>
+                    <p>Get in touch</p>
                 </a>
             </div>
         </div>
@@ -269,6 +293,8 @@
         </nav>
     </div>
 </footer>
-
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>

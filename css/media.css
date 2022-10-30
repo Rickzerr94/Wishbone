@@ -75,13 +75,170 @@
         padding: 60px 30px;
     }
 }
+
 @media only screen and (max-width: 428px) {
-    header{
+    .d_flex {
+        display: inline-block;
+    }
+    .div_header {
+        text-align: center;
+    }
+    .div_header nav ul {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 25px;
+    }
+    .div_header a {
+        align-items: center;
+    }
+    .div_header a img {
+        margin-bottom: 10px;
+    }
+    .div_header nav ul li:last-of-type a {
+        position: relative;
+        top: 20px;
+    }
+    .div_home {
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 20px;
+    }
+    .div_home h3 {
+        text-align: center;
+    }
+    .div_home h1 {
+        text-align: center;
+    }
+    .div_home p {
+        text-align: center;
+    }
+    .div_home a {
+        display: flex;
+        justify-content: center;
+    }
+    .div_image {
+        position: static;
+        min-height: 430px;
+        width: 100%;
+    }
+    .container_firm {
+        display: inline-block;
 
     }
-}
-@media only screen and (max-width: 320px) {
-    header{
+    .container_firm h2 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .div_senior {
+        padding: 0 12px;
+        align-items: center;
+    }
+    .container_firm .div_senior article {
+        display: flex;
+        justify-content: center;
+        margin-top: 18px;
+    }
+    .section_house {
+        justify-content: center;
+        text-align: center;
+    }
+    .div_article article {
+        max-width: none;
+        margin: 50px 0;
+        padding: 0 15px;
+    }
+    .section_staircase {
+        justify-content: center;
+        text-align: center;
+    }
+    .container_clients {
+        max-width: 1168px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .clients_content {
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .clients_logo1 a:first-of-type img {
+        margin-bottom: 100px;
+    }
+    .clients_logo1 {
+        margin-bottom: 60px;
+    }
+    .clients_logo2 a:first-of-type img {
+        margin-bottom: 67px;
+    }
+    .section_staircase2 {
+        justify-content: center;
+        text-align: center;
+    }
+    .div_projects .d_flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+    }
+    .div_projects article {
+        max-width: 375px;
+        margin-bottom: 10px;
+    }
+    .div_content {
+        display: flex;
+        justify-content: space-around;
+        align-self: normal;
+    }
+    .container_team {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_team .text_team {
+        text-align: center;
+        margin-right: 0;
+        max-width: 375px;
+        margin-bottom: 41px;
+    }
+    .text_team a {
+        margin-left: 0;
+    }
+    .team_list {
+        display: flex;
+        flex-direction: column;
+    }
+    .team_list article {
+        display: flex;
+    }
+    .div_get, a {
+        text-align: center;
+    }
+    .div_get {
+        margin-bottom: 40px;
+    }
+    .footer_container ul {
+        justify-content: flex-end;
+    }
+    .footer_container p {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 56px;
+    }
+    .clients_content {
+        margin-right: -2px;
+    }
+    .section_house {
+        padding-right: 0;
+    }
+    .section_staircase {
+        padding-right: 0;
+    }
+    .section_staircase2 {
+        padding-left: 0;
     }
 }
