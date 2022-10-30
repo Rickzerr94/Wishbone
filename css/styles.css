@@ -457,10 +457,10 @@ h1 {
     display: block;
 }
 
-.section_clients .container_clients .div_content {
-    display: flex;
-    justify-content: space-around;
-}
+/*.section_clients .container_clients .div_content {*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
 .clients_logo1 {
     margin-right: 96px;
 }
