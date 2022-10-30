@@ -457,7 +457,7 @@ h1 {
     display: block;
 }
 
-.div_content {
+.section_clients .container_clients .div_content {
     display: flex;
     justify-content: space-around;
 }
