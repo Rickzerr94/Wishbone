@@ -1,6 +1,6 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 834px) {
     .div_header a {
-        margin-left: 12px;
+        margin-left: 24px;
     }
     .div_header nav ul li:last-of-type a {
         margin-right: 2px;
@@ -47,7 +47,7 @@
         text-align: center;
     }
     .div_projects article {
-        max-width: 252px;
+        max-width: 275px;
     }
     .projects .describe a {
         margin: auto;
@@ -73,6 +73,16 @@
     }
     footer {
         padding: 60px 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .div_header a {
+        margin-left: 12px;
+    }
+
+    .div_projects article {
+        max-width: 252px;
     }
 }
 
