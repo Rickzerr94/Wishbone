@@ -6,7 +6,7 @@
 .d_flex {
     display: flex;
     justify-content: space-between;
-    /*align-items: center;*/
+    align-items: center;
 }
 
 header {
@@ -26,7 +26,8 @@ header {
 
 .div_header nav ul {
     list-style: none;
-    display: flex
+    display: flex;
+    align-items: center;
 }
 
 .div_header nav ul li a{
@@ -39,8 +40,9 @@ header {
     color: #1B1A1A;
 }
 
-.div_header nav ul li:last-of-type a {
+#opener {
     margin-right: 20px;
+    margin-left: 20px;
     padding: 11px 20px; background: #1B1A1A;
     border-radius: 14px;
     font-family: 'Poppins';
@@ -52,6 +54,29 @@ header {
     text-decoration: none;
     letter-spacing: 0.4px;
 
+}
+.ui-widget-header {
+    border: none;
+    background: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.ui-widget-content {
+    border: none;
+    background: #CEC4BC;
+    color: #333333;
+}
+.ui-widget.ui-widget-content {
+    border: none;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    background: black;
+    border: none;
 }
 
 /*------------------------house----------------------*/
