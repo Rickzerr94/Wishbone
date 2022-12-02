@@ -22,15 +22,19 @@ header {
 
 .div_header a {
     margin-left: 32px;
+    transition: 0.5s;
 }
-
+.div_header a:hover{
+    transform: scale(1.2);
+}
 .div_header nav ul {
     list-style: none;
     display: flex;
     align-items: center;
 }
 
-.div_header nav ul li a{
+.list-element{
+    display: inline-block;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -38,8 +42,11 @@ header {
     line-height: 24px;
     text-decoration: none;
     color: #1B1A1A;
+    transition: 0.5s;
 }
-
+.list-element:hover{
+    transform: scale(1.2);
+}
 #opener {
     margin-right: 20px;
     margin-left: 20px;
@@ -53,7 +60,12 @@ header {
     color: #ffffff;
     text-decoration: none;
     letter-spacing: 0.4px;
-
+    transition: 0.5s;
+}
+#opener:hover{
+    cursor: pointer;
+    transform: scale(1.0);
+    background: midnightblue;
 }
 .ui-widget-header {
     border: none;
@@ -230,8 +242,12 @@ h1 {
     line-height: 24px;
     letter-spacing: 0.4px;
     color: #1B1A1A;
+    display: inline-block;
+    transition: 0.5s;
 }
-
+.div_home a:hover{
+    transform: scale(1.2);
+}
 .div_image {
     position: absolute;
     right: 0;
@@ -292,14 +308,14 @@ h1 {
     display: inline-block;
 }
 .process .owl-carousel .owl-nav .owl-next {
-    width: 20px;
+    background-image: url("/img/arrow-right-solid.svg");
+    width: 18px;
     height: 20px;
-    background-color: yellow;
 }
-.process .owl-carousel .owl-nav .owl-pref {
-    width: 20px;
+.process .owl-carousel .owl-nav .owl-prev {
+    background-image: url("/img/arrow-left-solid.svg");
+    width: 18px;
     height: 20px;
-    background-color: yellow;
 }
 .owl-nav {
     position: absolute;
@@ -426,6 +442,10 @@ h1 {
     line-height: 24px;
     letter-spacing: 0.4px;
     color: #1B1A1A;
+    transition: 0.5s;
+}
+.container_get a p:hover{
+    transform: scale(1.2);
 }
 
 /*----------------------client---------------------*/
@@ -546,9 +566,8 @@ h1 {
     margin: auto;
 }
 
-.projects .div_projects a {
-    display: flex;
-    justify-content: center;
+.view {
+    display: block;
     margin-top: 53px;
     font-family: 'Poppins';
     font-style: normal;
@@ -558,8 +577,12 @@ h1 {
     letter-spacing: 0.4px;
     color: #1B1A1A;
     text-decoration: none;
+    transition: 0.5s;
+    text-align: center;
 }
-
+.view:hover{
+    transform: scale(1.2);
+}
 .projects h3 {
     font-family: 'Poppins';
     font-style: normal;
@@ -642,8 +665,11 @@ h1 {
     color: #FFFFFF;
     text-decoration: none;
     padding: 11px 20px;
+    transition: 0.5s;
 }
-
+.projects .describe a:hover{
+    background: midnightblue;
+}
 /*----------------------team-----------------------*/
 
 .section_team {
@@ -682,6 +708,7 @@ h1 {
 }
 
 .text_team a {
+    display: inline-block;
     text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
@@ -690,8 +717,11 @@ h1 {
     line-height: 24px;
     color: #1B1A1A;
     margin-left: 25px;
+    transition: 0.5s;
 }
-
+.text_team a:hover{
+    transform: scale(1.2);
+}
 .team_list {
     display: flex;
     flex-direction: column;
@@ -779,4 +809,9 @@ footer {
 .footer_container span {
     display: block;
 }
-
+.footer_container ul li{
+    transition: 0.5s;
+}
+.footer_container ul li:hover{
+    transform: scale(1.2);
+}
