@@ -28,9 +28,31 @@ main{
     z-index: 3;
     transition: 0.5s;
 }
+header {
+    padding: 22px 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+
+}
+header:before{
+    content: url("");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 2;
+}
 @media only screen and (max-width: 767px){
     body.lock{
         overflow: hidden;
+    }
+    header{
+        padding: 6px 0;
     }
     .burger{
         display: block;
@@ -84,6 +106,7 @@ main{
         left: 0;
         width: 100%;
         height: 100%;
+        overflow: auto;
         background: #FFFFFF;
         padding: 150px 0 0 0;
         transition: 0.4s;
@@ -107,24 +130,7 @@ main{
     }
 }
 
-header {
-    padding: 22px 0;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: 50;
-}
-header:before{
-    content: url("");
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: white;
-    z-index: 2;
-}
+
 .div_header {
     max-width: 1200px;
     margin: 0 auto;
