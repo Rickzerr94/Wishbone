@@ -6,6 +6,9 @@ $('.owl-carousel').owlCarousel({
     // autoplay: true,
     autoplayTimeout:2000,
     responsive:{
+        320:{
+            items:1
+        },
         375:{
             items:1
         },
@@ -39,3 +42,10 @@ $( function() {
         $( "#dialog" ).dialog( "open" );
     });
 } );
+
+$(document).ready( function() {
+    $('.burger').click(function (event){
+        $('.burger,.header-menu').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+});

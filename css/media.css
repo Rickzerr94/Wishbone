@@ -1,6 +1,6 @@
 @media only screen and (max-width: 834px) {
     .div_header a {
-        margin-left: 24px;
+        margin-left: 17px;
     }
     #opener {
         margin-right: 0;
@@ -87,27 +87,28 @@
     }
 }
 
+
 @media only screen and (max-width: 428px) {
-    .d_flex {
-        display: inline-block;
-    }
-    .div_header {
-        text-align: center;
-    }
-    .div_header nav ul {
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding-bottom: 25px;
-    }
-    .div_header a {
-        align-items: center;
-    }
-    .div_header a img {
-        margin-bottom: 10px;
-    }
-    #opener {
-        margin-top: 20px;
-    }
+    /*.d_flex {*/
+    /*    display: inline-block;*/
+    /*}*/
+    /*.div_header {*/
+    /*    text-align: center;*/
+    /*}*/
+    /*.div_header nav ul {*/
+    /*    flex-wrap: wrap;*/
+    /*    justify-content: space-around;*/
+    /*    padding-bottom: 25px;*/
+    /*}*/
+    /*.div_header a {*/
+    /*    align-items: center;*/
+    /*}*/
+    /*.div_header a img {*/
+    /*    margin-bottom: 10px;*/
+    /*}*/
+    /*#opener {*/
+    /*    margin-top: 20px;*/
+    /*}*/
     .div_home {
         padding-left: 12px;
         padding-right: 12px;
@@ -167,6 +168,7 @@
         flex-direction: column;
         align-items: center;
         margin: auto;
+        padding: 0 10px;
     }
     .clients_content {
         margin-bottom: 80px;
@@ -185,6 +187,9 @@
     .section_staircase2 {
         justify-content: center;
         text-align: center;
+    }
+    .div_projects{
+        padding: 0 10px;
     }
     .div_projects .d_flex {
         display: flex;
@@ -228,12 +233,20 @@
     .div_get {
         margin-bottom: 40px;
     }
+    .footer_container {
+        display: block;
+    }
+    .d_fl
     .footer_container ul {
         justify-content: flex-end;
     }
     .footer_container p {
         margin-bottom: 20px;
     }
+    .container_get {
+        display: block;
+    }
+
 }
 
 @media only screen and (max-width: 375px) {
