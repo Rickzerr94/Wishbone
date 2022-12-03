@@ -119,6 +119,7 @@
     }
     .div_home h1 {
         text-align: center;
+        font-size: 58px;
     }
     .div_home p {
         text-align: center;
@@ -126,6 +127,7 @@
     .div_home a {
         display: flex;
         justify-content: center;
+        margin-left: 0;
     }
     .div_image {
         position: static;
@@ -143,6 +145,9 @@
     .div_senior {
         padding: 0 12px;
         align-items: center;
+    }
+    .div_process h2 {
+        padding: 0 10px;
     }
     .container_firm .div_senior article {
         display: flex;
@@ -170,9 +175,15 @@
         margin: auto;
         padding: 0 10px;
     }
+    .container_clients .d_flex{
+        gap: 20px;
+    }
     .clients_content {
         margin-bottom: 80px;
         text-align: center;
+    }
+    .clients_content p {
+        padding-right: 20px;
     }
     .clients_logo1 a:first-of-type img {
         margin-bottom: 100px;
@@ -250,8 +261,8 @@
 }
 
 @media only screen and (max-width: 375px) {
-    h1 {
-        font-size: 56px;
+    .div_home h1 {
+        font-size: 52px;
     }
     .clients_content {
         margin-right: -2px;
@@ -265,4 +276,12 @@
     .section_staircase2 {
         padding-left: 0;
     }
+}
+@media only screen and (max-width: 320px) {
+    .div_home h1 {
+        font-size: 46px;
+    }
+}
+.clients_content p {
+    padding-right: 10px;
 }
